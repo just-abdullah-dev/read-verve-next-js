@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.tox .tox-statusbar__branding {
+    display: none;
+}
+
+/* #body-of-blog {
+    all: unset;
+} */
+#body-of-blog h1{
+    font-size: 30px;
+}
+#body-of-blog h2{
+    font-size: 24px;
+}
+#body-of-blog h3{
+    font-size: 20px;
+}
+#body-of-blog h4{
+    font-size: 18px;
+}
+#body-of-blog h5{
+    font-size: 15px;
+}
+#body-of-blog h6{
+    font-size: 12px;
+}
+#body-of-blog ul li {
+  list-style: disc;
+}
+
+#body-of-blog ol li {
+  list-style: decimal;
+}
+
+
