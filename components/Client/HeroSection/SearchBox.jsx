@@ -35,7 +35,7 @@ export default function SearchBox() {
                 addQueryToLink();
             }
 
-        }, [searchInput, setSearchInput, router, isFirstRun, addQueryToLink]
+        }, [searchInput, setSearchInput, router, isFirstRun]
     )
 
     return (
